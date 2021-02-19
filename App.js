@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Header";
+import BubbleChart from './components/BubbleChart';
+
 
 function App() {
   return (
     <div className="app">
-        <h1> Header and Logo </h1>
-       
+       <Header />
+       <div className='chart'>
+         <BubbleChart/>
+       </div>
        {/* Title bar*/}
-       {/* Graph */}
        {/* Tool Bar */}
        {/* Data Input */}
 
