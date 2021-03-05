@@ -1,0 +1,9 @@
+.DataInputText.css {
+  width: 100%;
+  boarder: 5px solid grey;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.18);
+}
+
+.DataInput.Text input {
+  width: 100%;
+}
