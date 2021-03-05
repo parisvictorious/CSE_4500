@@ -1,7 +1,10 @@
 import './App.css';
 import Header from "./Header";
 import BubbleChart from './components/BubbleChart';
-
+import DataInputX from './DataInputX';
+import DataInputY from './DataInputY';
+import DataInputR from './DataInputR';
+import './DataInputText.css';
 
 function App() {
   return (
@@ -12,7 +15,12 @@ function App() {
        </div>
        {/* Title bar*/}
        {/* Tool Bar */}
-       {/* Data Input */}
+       <div className="DataInputText">
+       <DataInputX />
+       <DataInputY />
+       <DataInputR />
+       </div>
+      
 
     
     </div>
