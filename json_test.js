@@ -13,13 +13,16 @@ const student = {
 const studentObjStr = JSON.stringify(student);
 console.log(studentObjStr);
 
-// creates an object containing the following
+// creates a string containing the following
 //{"name:","Paris","age:","25,"sex:","Female"}
 
-const jsObject = JSON.parse(studentObjStr, (key, value) => {
-    if (typeof value == 'string'){
+const jsObject = JSON.parse( studentObjStr, function(key, value) {
+    if (typeof value == "string"){
         return value.toUpperCase();
-
+    } else{
+        return value;
     }
-return value;
 });
+console.log(jsObject);
+
+// Turns the above string into an object and changes all strings into uppercase format.
