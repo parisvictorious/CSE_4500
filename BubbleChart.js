@@ -5,6 +5,10 @@ function BubbleChart() {
 
     const data = {
         labels: ['7','2','3','4','5'],
+    }
+    heights={400}
+    widths={600}
+    options={{maintainAspectRatio: false}}
         datasets: [
             {
                 label: 'Title',
